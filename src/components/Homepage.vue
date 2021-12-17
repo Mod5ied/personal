@@ -1,4 +1,5 @@
-<script setup>
+<script>
+import { ref } from "@vue/reactivity";
 // The following code is based off a toggle menu by @Bradcomp
 // source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
 // (function () {
@@ -9,6 +10,24 @@
 //     menu.classList.toggle("is-active");
 //   });
 // })();
+export default {
+  name: "Home",
+  setup() {
+    let handleClick = () => {
+      document.getElementById("burger").classList.toggle("is-active");
+      document
+        .getElementById("navbarExampleTransparentExample")
+        .classList.toggle("show");
+    };
+    //
+    let state = ref(true);
+
+    return {
+      handleClick,
+      state,
+    };
+  },
+};
 </script>
 
 <template>
@@ -17,8 +36,10 @@
     <nav class="navbar is-link is-fixed-top">
       <div class="navbar-brand">
         <div
+          id="burger"
           class="navbar-burger burger"
           data-target="navbarExampleTransparentExample"
+          @click="handleClick"
         >
           <span></span>
           <span></span>
@@ -81,7 +102,7 @@
         <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
         <div class="container">
           <p>
-            Web developer with more than <strong>3 years</strong> of
+            Frontend web developer with more than <strong>3 years</strong> of
             well-rounded experience working with web technologies and a degree
             in the field of <strong>Computer Science</strong>, having an
             extensive knowledge of modern Web techniques and love for
@@ -150,11 +171,7 @@
                   src="https://source.unsplash.com/random/1280x960"
                   alt="Placeholder image"
                 /> -->
-                <img
-                  src="../assets/ME.jpg"
-                  alt="Placeholder image"
-                  
-                />
+                <img src="../assets/ME.jpg" alt="Placeholder image" />
               </figure>
             </div>
           </div>
@@ -644,6 +661,9 @@
 * {
   /* outline: 1px solid red !important; */
   font-family: "Rubik", sans-serif;
+}
+.show {
+  display: flex !important;
 }
 .has-same-height .card {
   height: 320px;
