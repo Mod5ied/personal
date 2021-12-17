@@ -193,9 +193,7 @@ export default {
                         ></ion-icon
                         >JavaScript:</strong
                       >
-                      <!-- <br /> -->
                       <p>3+ Years experience</p>
-                      <!-- </p> -->
                     </div>
                   </div>
                 </article>
@@ -212,7 +210,6 @@ export default {
                         >Vue.js:</strong
                       >
                       <p>3+ years experience</p>
-                      <!-- </p> -->
                     </div>
                   </div>
                 </article>
@@ -220,7 +217,6 @@ export default {
                 <article class="media">
                   <div class="media-content">
                     <div class="content">
-                      <!-- <p> -->
                       <strong
                         ><ion-icon
                           class="content-icon three"
@@ -229,7 +225,6 @@ export default {
                         >Node.js:</strong
                       >
                       <p>2years(Learning)</p>
-                      <!-- </p> -->
                     </div>
                   </div>
                 </article>
@@ -246,7 +241,6 @@ export default {
                         >HTML5/CSS3</strong
                       >
                       <p>3+ years experience</p>
-                      <!-- </p> -->
                     </div>
                   </div>
                 </article>
@@ -356,7 +350,7 @@ export default {
                 <div class="card-content">
                   <figure class="image">
                     <img
-                      src="../assets/mynotifiDesk Captcha.png"
+                      src="../assets/mynotifiDesk.png"
                       alt="Admin template screenshot"
                     />
                   </figure>
@@ -393,7 +387,7 @@ export default {
                 <div class="card-content">
                   <figure class="image columns">
                     <img
-                      src="../assets/NotesDesk Captcha.PNG"
+                      src="../assets/NotesDesk.png"
                       alt="Cards template screenshot"
                     />
                   </figure>
@@ -427,7 +421,7 @@ export default {
                 <div class="card-content">
                   <figure class="image">
                     <img
-                      src="../assets/ClearonDesk Captcha.png"
+                      src="../assets/ClearonDesk.png"
                       alt="Hero template screenshot"
                     />
                   </figure>
@@ -454,7 +448,6 @@ export default {
                       <a
                         href="https://github.com/jgthms/bulma/releases/tag/0.7.2"
                       >
-                        <!-- <span class="tag is-default">v0.1.2</span> -->
                       </a>
                       <span class="tag is-default">Vue+Typescript</span>
                       <span class="tag is-danger">WIP</span>
@@ -464,7 +457,7 @@ export default {
                 <div class="card-content">
                   <figure class="image">
                     <img
-                      src="../assets/Nette Captcha.PNG"
+                      src="../assets/Nette.png"
                       alt="Landing template screenshot"
                     />
                   </figure>
@@ -490,14 +483,13 @@ export default {
                         <span class="tag is-default">v0.1</span>
                       </a>
                       <span class="tag is-default">Vue3 + Typescript</span>
-                      <!-- <span class="tag is-danger">WIP</span> -->
                     </span>
                   </p>
                 </header>
                 <div class="card-content">
                   <figure class="image">
                     <img
-                      src="../assets/NotesDesk Captcha.PNG"
+                      src="../assets/NotesDesk.png"
                       alt="Landing template screenshot"
                     />
                   </figure>
@@ -530,7 +522,7 @@ export default {
                 <div class="card-content">
                   <figure class="image">
                     <img
-                      src="../assets/Form CPTCHA.PNG"
+                      src="../assets/Form.png"
                       alt="Landing template screenshot"
                     />
                   </figure>
