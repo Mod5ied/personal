@@ -309,7 +309,11 @@ export default {
         <h3 class="title is-2">Resume</h3>
         <h4 class="subtitle is-5">More about my past</h4>
         <!-- Add a method here that adds the spinning class to button onclick -->
-        <a href="#" class="button is-warning is-medium" id="btn">
+        <a
+          href="https://drive.google.com/file/d/13s4FsMfcah0Gn0y3UID_U6iCHIrInE8K/view?usp=sharing"
+          class="button is-warning is-medium"
+          id="btn"
+        >
           <span class="icon">
             <ion-icon name="document-attach"></ion-icon>
           </span>
@@ -555,10 +559,13 @@ export default {
           <div class="box">
             <div class="content">
               <h4 class="title is-5">
-                <a href="">A Beginners Introduction to the Web</a>
+                <a
+                  href="https://dev.to/mod5ied/a-beginners-introduction-to-web-development-1lbb"
+                  >A Beginners Introduction to Web Development</a
+                >
               </h4>
-              Develop Front End using latest standards with HTML5/CSS3 with
-              added funtionality using JavaScript and Vue.js.
+              A concise and interesting series of information curated for
+              developers who are delving into the field of web development.
             </div>
           </div>
         </div>
@@ -566,24 +573,29 @@ export default {
           <div class="box">
             <div class="content">
               <h4 class="title is-5">
-                <a href=""> Beginners Introduction to Request and Response </a>
-              </h4>
-              I write advanced and beginner-friendly articles focusing on arears
-              of technologies that are yet to be explored or insoluble to devs.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">
-                <a href="">
-                  Vue3 concepts You Don't Know!
-                  <span class="tag is-danger">WIP</span>
+                <a
+                  href="https://dev.to/mod5ied/request-and-response-for-beginners-450h"
+                >
+                  Requests and Response for Beginners
                 </a>
               </h4>
-              I write advanced and beginner-friendly articles focusing on arears
-              of technologies that are yet to be explored or insoluble to devs.
+              An informal and simplistic introduction to the concepts of request
+              and response. One of a series of posts!
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">
+                <a
+                  href="https://dev.to/mod5ied/a-beginners-introduction-to-making-api-requests-unsplash-api-2lfk"
+                >
+                  A Beginners Introduction to Making API Requests (Unsplash API)
+                </a>
+              </h4>
+              A masterpiece!, it focuses on the practical approach to making
+              request to a real life API and handling responses.
             </div>
           </div>
         </div>
@@ -594,12 +606,14 @@ export default {
           <div class="box">
             <div class="content">
               <h4 class="title is-5">
-                <a href="">
-                  Article Four <span class="tag is-danger">WIP</span></a
+                <a
+                  href="https://dev.to/mod5ied/beginners-introduction-to-response-handling-pt2-504a"
+                >
+                  Beginners Introduction to Response Handling(2)</a
                 >
               </h4>
-              I write advanced and beginner-friendly articles focusing on arears
-              of technologies that are yet to be explored or insoluble to devs.
+              A third piece of the series. Focuses on solidifying the existing
+              knowledge of the concept of response handling!
             </div>
           </div>
         </div>
@@ -608,7 +622,8 @@ export default {
             <div class="content">
               <h4 class="title is-5">
                 <a href="">
-                  Article Five <span class="tag is-danger">WIP</span></a
+                  Article is loading...
+                  <span class="tag is-danger">WIP</span></a
                 >
               </h4>
               I write advanced and beginner-friendly articles focusing on arears
