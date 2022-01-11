@@ -311,6 +311,7 @@ export default {
         <!-- Add a method here that adds the spinning class to button onclick -->
         <a
           href="https://drive.google.com/file/d/13s4FsMfcah0Gn0y3UID_U6iCHIrInE8K/view?usp=sharing"
+          target="_blank"
           class="button is-warning is-medium"
           id="btn"
         >
@@ -622,12 +623,13 @@ export default {
             <div class="content">
               <h4 class="title is-5">
                 <a href="">
-                  Article is loading...
+                  Node.js Event-loop demystified
                   <span class="tag is-danger">WIP</span></a
                 >
               </h4>
-              I write advanced and beginner-friendly articles focusing on arears
-              of technologies that are yet to be explored or insoluble to devs.
+              The Event-loop is a popular concept amongst node devs, but very
+              few understad it. This article explains all there is to know about
+              the event-loop and its relation to node.
             </div>
           </div>
         </div>
@@ -636,11 +638,11 @@ export default {
             <div class="content">
               <h4 class="title is-5">
                 <a class="is-warning" href="">
-                  Article Six <span class="tag is-danger">WIP</span></a
+                  Searching for files using node.js
+                  <span class="tag is-danger">WIP</span></a
                 >
               </h4>
-              I write advanced and beginner-friendly articles focusing on arears
-              of technologies that are yet to be explored or insoluble to devs.
+              Learn how to search for files using node on your local machine
             </div>
           </div>
         </div>
