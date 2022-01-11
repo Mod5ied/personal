@@ -628,8 +628,8 @@ export default {
                 >
               </h4>
               The Event-loop is a popular concept amongst node devs, but very
-              few understad it. This article explains all there is to know about
-              the event-loop and its relation to node.
+              few understand it. This article explains all there is to know
+              about the event-loop and its relation to node.
             </div>
           </div>
         </div>
