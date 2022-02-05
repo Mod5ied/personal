@@ -627,8 +627,11 @@ export default {
           <div class="box">
             <div class="content">
               <h4 class="title is-5">
-                <a class="is-warning" href="">
-                  Searching for files using node.js
+                <a
+                  class="is-warning"
+                  href="https://dev.to/mod5ied/how-to-search-for-files-with-user-input-nodejs-4c19"
+                >
+                  Search and Read files on your machine with nodejs
                   <span class="tag is-danger">WIP</span></a
                 >
               </h4>
